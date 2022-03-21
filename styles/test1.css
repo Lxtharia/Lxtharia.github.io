@@ -1,0 +1,41 @@
+@font-face {
+    font-family: Crushed-Regular;
+    src: url("../fonts/crushed/Crushed-Regular.ttf");
+}
+
+@font-face {
+    font-family: Halogen;
+    src: url("../fonts/Halogen.ttf");
+}
+
+h1, p {
+    text-align: left;
+}
+
+p {
+    font-size: 20px;
+}
+
+body {
+    /* background: #A64B4B; */
+    font-family: Halogen;
+    padding-left: 30px;
+}
+
+.fancy {
+    font-family: Crushed-Regular;
+    /* font-weight: bolder; */
+}
+
+#Liebhaben {
+    color: #E013C9;
+}
+table {
+    width: 50%;
+}
+th, td {
+    border: 1px solid black;
+}
+td {
+    /* Wie zu mittig alignen?! */
+}
