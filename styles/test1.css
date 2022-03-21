@@ -27,15 +27,29 @@ body {
     /* font-weight: bolder; */
 }
 
+.blau {
+    color: turquoise;
+    text-emphasis-style: filled;
+    text-align: center;
+}
+
 #Liebhaben {
     color: #E013C9;
 }
+
+#DieFünfzehn {
+    color: gray;
+}
+
 table {
     width: 50%;
 }
+
 th, td {
     border: 1px solid black;
 }
+
 td {
+    /* color: gray; */
     /* Wie zu mittig alignen?! */
 }
