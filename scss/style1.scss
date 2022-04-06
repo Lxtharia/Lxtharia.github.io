@@ -1,0 +1,78 @@
+@font-face {
+  font-family: Halogen;
+  src: url("../fonts/Halogen.ttf");
+}
+
+$nav-color: #ff86a4;
+
+body{
+  font-family: "Halogen", sans-serif;
+  color: hotpink;
+  background-color: #303030;
+  font-size: 20px;
+  text-align: center;
+  margin:0px;
+}
+
+nav {
+  display: flex;
+  //flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+  background-color: $nav-color;
+  color:pink;
+  height: 50px;
+}
+nav p:hover {
+  background-color: #fd9bb3;
+}
+nav {
+  p {
+    padding: 4px;
+    margin: 4px;
+    border: white dashed 1px;
+    border-radius: 7px;
+  }
+}
+header{
+  //border-bottom: #252525 solid 4px;
+  background-color: #252525;
+  padding: 0px 0px 20px;
+  height: fit-content;
+}
+
+
+.headingText {
+  font-family: "Roboto Mono", monospace;
+  font-size: 18px;
+  margin: 60px auto;
+  width: 80%;
+
+}
+
+section{
+  width: 80%;
+  margin: 50px auto;
+}
+
+.hot-topic-container{
+  display: flex;
+  justify-content: space-between;
+  height: fit-content;
+  //:hover{
+  //  margin-top: 6px;
+  //  margin-left: 6px;
+  //}
+}
+
+.hot-topic-container div{
+  width: 47%;
+  //border: #252525 solid 1px;
+  background-color: #333333;
+  h3{
+    font-family: "Roboto Mono";
+    font-weight: normal;
+  }
+}
+
+

@@ -1,0 +1,67 @@
+@font-face {
+  font-family: Halogen;
+  src: url("../fonts/Halogen.ttf");
+}
+body {
+  font-family: "Halogen", sans-serif;
+  color: hotpink;
+  background-color: #303030;
+  font-size: 20px;
+  text-align: center;
+  margin: 0px;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  background-color: #ff86a4;
+  color: pink;
+  height: 50px;
+}
+
+nav p:hover {
+  background-color: #fd9bb3;
+}
+
+nav p {
+  padding: 4px;
+  margin: 4px;
+  border: white dashed 1px;
+  border-radius: 7px;
+}
+
+header {
+  background-color: #252525;
+  padding: 0px 0px 20px;
+  height: fit-content;
+}
+
+.headingText {
+  font-family: "Roboto Mono", monospace;
+  font-size: 18px;
+  margin: 60px auto;
+  width: 80%;
+}
+
+section {
+  width: 80%;
+  margin: 50px auto;
+}
+
+.hot-topic-container {
+  display: flex;
+  justify-content: space-between;
+  height: fit-content;
+}
+
+.hot-topic-container div {
+  width: 47%;
+  background-color: #333333;
+}
+.hot-topic-container div h3 {
+  font-family: "Roboto Mono";
+  font-weight: normal;
+}
+
+/*# sourceMappingURL=main.css.map */
