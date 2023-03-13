@@ -1,0 +1,3 @@
+[submodule "tooling/yt-web-dl"]
+	path = tooling/yt-web-dl
+	url = git@github.com:Lxtharia/precise-web-video-downloader.git
