@@ -30,7 +30,6 @@ section {
   flex-direction: column;
   margin: 0 auto;
 }
-
 .navigation a {
   width: 100%;
   text-align: center;
@@ -41,7 +40,6 @@ section {
   font-size: 27px;
   transition: color 0.3s linear;
 }
-
 .navigation a:hover {
   color: #b118c9;
   transition: color 0.1s linear;
@@ -56,7 +54,6 @@ footer {
   height: 2.5rem;
   padding-bottom: 15px;
 }
-
 footer * {
   text-align: center;
   width: 100%;
@@ -73,6 +70,5 @@ footer * {
     color: #296d98;
   }
 }
-/*# sourceMappingURL=main.css.map */
 
 /*# sourceMappingURL=main.css.map */
