@@ -1,3 +1,10 @@
+#color-aura {
+  background-color: greenyellow;
+  position: absolute;
+  left: 200px;
+  top: 50px;
+}
+
 html {
   background-color: #0c0c0d;
   color: #296d98;

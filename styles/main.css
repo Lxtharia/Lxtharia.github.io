@@ -1,3 +1,11 @@
+#color-aura {
+  background-color: #0027f9;
+  position: absolute;
+  filter: blur(27px);
+  mix-blend-mode: hue;
+  pointer-events: none;
+}
+
 html {
   background-color: #0c0c0d;
   color: #296d98;
@@ -14,6 +22,7 @@ h1 {
   font-size: 150px;
   font-weight: lighter;
   margin: 0;
+  user-select: none;
 }
 
 #titleword1 {
@@ -35,7 +44,6 @@ section {
   flex-direction: column;
   margin: 0 auto;
 }
-
 .navigation a {
   width: 100%;
   text-align: center;
@@ -44,9 +52,8 @@ section {
   margin: 35px auto;
   text-decoration: none;
   font-size: 27px;
-  transition: color 0.3s linear;
+  transition: color 0.4s linear;
 }
-
 .navigation a:hover {
   color: #b118c9;
   transition: color 0.1s linear;
@@ -58,7 +65,6 @@ footer {
   height: 2.5rem;
   padding-bottom: 15px;
 }
-
 footer * {
   text-align: center;
   width: 100%;
@@ -75,6 +81,5 @@ footer * {
     color: #296d98;
   }
 }
-/*# sourceMappingURL=main.css.map */
 
 /*# sourceMappingURL=main.css.map */

@@ -1,0 +1,9 @@
+#color-aura {
+  background-color: #0027f9;
+  position: absolute;
+  filter: blur(27px);
+  mix-blend-mode: hue;
+  pointer-events: none;
+}
+
+/*# sourceMappingURL=color-aura.css.map */
