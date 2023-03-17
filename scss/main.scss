@@ -46,8 +46,9 @@ section {
 	color: #245386;
 	display: block;
 	margin: 35px auto;
-	text-decoration: none;
 	font-size: 27px;
+	text-decoration: none;
+	user-select: none;
 	transition: color 0.40s linear
   }
 
