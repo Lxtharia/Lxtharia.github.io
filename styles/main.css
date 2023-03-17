@@ -1,9 +1,31 @@
-#color-aura {
-  background-color: #0027f9;
+.cursor-tracking {
   position: absolute;
+  pointer-events: none;
+  transform: translate(-50%, -50%);
+  transform-origin: 0 0;
+}
+
+#color-aura {
+  background-color: #0021f9;
+  width: 100px;
+  height: 100px;
+  border-radius: 50px;
   filter: blur(27px);
   mix-blend-mode: hue;
-  pointer-events: none;
+  transition: background-color 0.1s;
+}
+
+.onmousedown-color {
+  background-color: #aaff00 !important;
+}
+
+#cursor-crosshair {
+  position: absolute;
+  height: 70px;
+  width: 70px;
+  border-radius: 50px;
+  transition: width 0.1s, height 0.1s, rotate 0.1s;
+  filter: saturate(0);
 }
 
 html {

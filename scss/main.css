@@ -16,7 +16,7 @@ header {
 }
 
 h1 {
-  animation: 6s colorFade infinite alternate ease-in-out;
+  animation: 6s titleAnimation infinite alternate ease-in-out;
   font-family: "Tilt Prism", sans-serif;
   font-size: 150px;
   font-weight: lighter;
@@ -69,14 +69,14 @@ footer * {
   margin: auto;
 }
 
-@keyframes colorFade {
+@keyframes titleAnimation {
   from {
     transform: translateX(0) translateY(0);
-    color: #244C88;
+    color: #224579;
   }
   to {
-    transform: translateX(-4px) translateY(-4px);
-    color: #296d98;
+    transform: translateX(-6px) translateY(-6px);
+    color: #4383b0;
   }
 }
 
