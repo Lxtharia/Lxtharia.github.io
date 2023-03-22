@@ -3,6 +3,7 @@
 <head lang="de">
     <title>[The Lx.]</title>
     <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="styles/damage.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -11,34 +12,39 @@
           rel="stylesheet">
 </head>
 <body>
+	<div class="damagable">
+
+		<header>
+			<div class="headingText">
+				<h1 id="titleword1">degrasping</h1>
+				<h1 id="titleword2">siglissity</h1>
+
+			</div>
+		</header>
 
 
-<header>
-    <div class="headingText">
-        <h1 id="titleword1">degrasping</h1>
-        <h1 id="titleword2">siglissity</h1>
+		<section>
+			<div class="navigation">
+				<a href="./tooling/yt-web-dl/index.html"> y t - w e b - d l </a>
+				<a href="./rena.html"> r e n a </a>
+				<a href="https://lxtharia.github.io"> l x t h a r i a </a>
+				<a href="./"> x p x l x </a>
+				<a onmousedown="damage()"> s x c x r x f x c x </a>
+			</div>
+		</section>
 
-    </div>
-</header>
+		<footer>
+			<p>End.<br>-------------------------------------</p>
+		</footer>
 
-
-<section>
-    <div class="navigation">
-        <a href="./tooling/yt-web-dl/index.html"> y t - w e b - d l </a>
-        <a href="./rena.html"> r e n a </a>
-        <a href="https://lxtharia.github.io"> l x t h a r i a </a>
-        <a href="./"> x p x l x </a>
-    </div>
-</section>
-
-<footer>
-    <p>End.<br>-------------------------------------</p>
-</footer>
+	</div>
 
 <div class="cursor-tracking" id="color-aura"></div>
 <div class="cursor-tracking" id="cursor-crosshair">
     <img src="img/cursorstar-red-90.svg"/>
 </div>
+
+<script src="scripts/damage.js"></script>
 <script src="scripts/color-aura.js"></script>
 
 </body>
