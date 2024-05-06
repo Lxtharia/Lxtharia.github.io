@@ -28,20 +28,38 @@
   filter: saturate(0);
 }
 
+.onmousedown-color {
+  background-color: #aaff00 !important;
+}
+
+#cursor-crosshair {
+  position: absolute;
+  height: 70px;
+  width: 70px;
+  border-radius: 50px;
+  transition: width 0.1s, height 0.1s, rotate 0.1s;
+  filter: saturate(0);
+}
+
 html {
   background-color: #0c0c0d;
   color: #296d98;
   font-family: "Xanh Mono", monospace;
 }
 
+body {
+  margin: 0px;
+  overflow-x: hidden;
+}
+
 header {
-  margin: 0 20px 120px 20px;
+  margin: 0 20px 20px 20px;
 }
 
 h1 {
   animation: 6s colorFade infinite alternate ease-in-out;
   font-family: "Tilt Prism", sans-serif;
-  font-size: 150px;
+  font-size: 155px;
   font-weight: lighter;
   margin: 0;
   user-select: none;
@@ -71,8 +89,8 @@ section {
   text-align: center;
   color: #245386;
   display: block;
-  margin: 35px auto;
-  font-size: 27px;
+  margin: 27px auto;
+  font-size: 23px;
   text-decoration: none;
   user-select: none;
   transition: color 0.4s linear;

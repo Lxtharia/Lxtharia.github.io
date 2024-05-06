@@ -28,4 +28,17 @@
   filter: saturate(0);
 }
 
+.onmousedown-color {
+  background-color: #aaff00 !important;
+}
+
+#cursor-crosshair {
+  position: absolute;
+  height: 70px;
+  width: 70px;
+  border-radius: 50px;
+  transition: width 0.1s, height 0.1s, rotate 0.1s;
+  filter: saturate(0);
+}
+
 /*# sourceMappingURL=color-aura.css.map */

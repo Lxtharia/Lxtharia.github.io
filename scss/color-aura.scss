@@ -7,14 +7,26 @@
 }
 
 #color-aura {
-  background-color: #0021f9; //greenyellow;
-  // alternativ #0027f9
+  background-color: #0021f9;
   width: 100px;
   height: 100px;
   border-radius: 50px;
   filter: blur(27px);
   mix-blend-mode: hue;
   transition: background-color 0.1s;
+}
+
+.onmousedown-color {
+  background-color: #aaff00 !important;
+}
+
+#cursor-crosshair {
+  position: absolute;
+  height: 70px;
+  width: 70px;
+  border-radius: 50px;
+  transition: width 0.1s, height 0.1s, rotate 0.1s;
+  filter: saturate(0);
 }
 
 .onmousedown-color {

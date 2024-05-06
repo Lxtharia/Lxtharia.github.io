@@ -7,15 +7,20 @@ html {
   font-family: "Xanh Mono", monospace;
 }
 
+body {
+  margin: 0px;
+  overflow-x: hidden;
+}
+
 
 header {
-  margin: 0 20px 120px 20px;
+  margin: 0 20px 20px 20px;
 }
 
 h1 {
   animation: 6s colorFade infinite alternate ease-in-out;
   font-family: "Tilt Prism", sans-serif;
-  font-size: 150px;
+  font-size: 155px;
   font-weight: lighter;
   margin: 0;
   user-select: none;
@@ -45,8 +50,8 @@ section {
 	text-align: center;
 	color: #245386;
 	display: block;
-	margin: 35px auto;
-	font-size: 27px;
+	margin: 27px auto;
+	font-size: 23px;
 	text-decoration: none;
 	user-select: none;
 	transition: color 0.40s linear
