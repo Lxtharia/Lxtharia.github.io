@@ -1,0 +1,63 @@
+:root {
+
+
+}
+
+body {
+    background: black;
+    color: white;
+    font-family: "Courier", monospace;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    font-size: 40px;
+}
+
+.torso {
+    --clock-size: min(90lvw, 90lvh);
+    width: var(--clock-size);
+    height: var(--clock-size);
+    position: absolute;
+    translate: -50% -50%;
+    left: 50%;
+    top: 50%;
+
+    border: 2px solid #a4f;
+    border-radius: 200%;
+    a {
+        font-size: calc(0.05 * var(--clock-size));
+
+    }
+}
+
+.blatt {
+    color: red;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    translate: -50% -50%;
+}
+
+
+
+@mixin place_on_clock($number) {
+    transform: translate(
+        calc(0.4 * cos($number * (360deg / 12) - 90deg) * var(--clock-size)),
+        calc(0.4 * sin($number * (360deg / 12) - 90deg) * var(--clock-size))
+    );
+}
+
+.z0 { @include place_on_clock(0); }
+.z1 { @include place_on_clock(1); }
+.z2 { @include place_on_clock(2); }
+.z3 { @include place_on_clock(3); }
+.z4 { @include place_on_clock(4); }
+.z5 { @include place_on_clock(5); }
+.z6 { @include place_on_clock(6); }
+.z7 { @include place_on_clock(7); }
+.z8 { @include place_on_clock(8); }
+.z9 { @include place_on_clock(9); }
+.z10 { @include place_on_clock(10); }
+.zB { @include place_on_clock(11); }
