@@ -1,0 +1,84 @@
+body {
+  background: black;
+  color: white;
+  font-family: "Courier", monospace;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  font-size: 40px;
+}
+
+.torso {
+  --clock-size: min(90lvw, 90lvh);
+  width: var(--clock-size);
+  height: var(--clock-size);
+  position: absolute;
+  translate: -50% -50%;
+  left: 50%;
+  top: 50%;
+  border: 2px solid #a4f;
+  border-radius: 200%;
+}
+.torso a {
+  font-size: calc(0.05 * var(--clock-size));
+}
+
+.blatt {
+  color: red;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  translate: -50% -50%;
+}
+
+.z0 {
+  transform: translate(calc(0.4 * cos(-90deg) * var(--clock-size)), calc(0.4 * sin(-90deg) * var(--clock-size)));
+}
+
+.z1 {
+  transform: translate(calc(0.4 * cos(-60deg) * var(--clock-size)), calc(0.4 * sin(-60deg) * var(--clock-size)));
+}
+
+.z2 {
+  transform: translate(calc(0.4 * cos(-30deg) * var(--clock-size)), calc(0.4 * sin(-30deg) * var(--clock-size)));
+}
+
+.z3 {
+  transform: translate(calc(0.4 * cos(0deg) * var(--clock-size)), calc(0.4 * sin(0deg) * var(--clock-size)));
+}
+
+.z4 {
+  transform: translate(calc(0.4 * cos(30deg) * var(--clock-size)), calc(0.4 * sin(30deg) * var(--clock-size)));
+}
+
+.z5 {
+  transform: translate(calc(0.4 * cos(60deg) * var(--clock-size)), calc(0.4 * sin(60deg) * var(--clock-size)));
+}
+
+.z6 {
+  transform: translate(calc(0.4 * cos(90deg) * var(--clock-size)), calc(0.4 * sin(90deg) * var(--clock-size)));
+}
+
+.z7 {
+  transform: translate(calc(0.4 * cos(120deg) * var(--clock-size)), calc(0.4 * sin(120deg) * var(--clock-size)));
+}
+
+.z8 {
+  transform: translate(calc(0.4 * cos(150deg) * var(--clock-size)), calc(0.4 * sin(150deg) * var(--clock-size)));
+}
+
+.z9 {
+  transform: translate(calc(0.4 * cos(180deg) * var(--clock-size)), calc(0.4 * sin(180deg) * var(--clock-size)));
+}
+
+.z10 {
+  transform: translate(calc(0.4 * cos(210deg) * var(--clock-size)), calc(0.4 * sin(210deg) * var(--clock-size)));
+}
+
+.zB {
+  transform: translate(calc(0.4 * cos(240deg) * var(--clock-size)), calc(0.4 * sin(240deg) * var(--clock-size)));
+}
+
+/*# sourceMappingURL=crisis.css.map */

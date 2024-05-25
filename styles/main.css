@@ -118,8 +118,8 @@ footer * {
     color: #244C88;
   }
   to {
-    transform: translateX(-4px) translateY(-4px);
-    color: #296d98;
+    transform: translateX(-5px) translateY(-5px);
+    color: #397da8;
   }
 }
 
