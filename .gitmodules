@@ -1,3 +1,6 @@
 [submodule "tooling/yt-web-dl"]
 	path = tooling/yt-web-dl
 	url = git@github.com:Lxtharia/precise-web-video-downloader.git
+[submodule "tooling/eschaton-translator-web"]
+	path = tooling/eschaton-translator
+	url = https://github.com/Lxtharia/eschaton-translator-web
