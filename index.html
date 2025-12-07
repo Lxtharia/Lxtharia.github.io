@@ -31,8 +31,19 @@
 				<a href="https://www.yourworldoftext.com/lxn"> w o r l d   o f   t e x t </a>
 				<a href="./"> x p x l x </a>
 				<a onmousedown="damage()"> s x c x r x f x c x </a>
-				<a href="https://www.lama-in.yokohama"> y o k o h a m a </a>
+				<!-- <a href="https://www.lama-in.yokohama"> y o k o h a m a </a> -->
 				<a href="./tooling/eschaton-translator/"> e s c h a t o n </a>
+                <a class="exit-button"
+                    onmousedown="document.getElementsByTagName('body')[0].innerHTML= ''"
+                ></a>
+                <style>
+                .exit-button:after {
+                    content: "s c r e e n"
+                }
+                .exit-button:hover:after {
+                    content: "o f f"
+                }
+                </style>
 			</div>
 		</section>
 
