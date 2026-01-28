@@ -1,3 +1,28 @@
+
+html {
+  background-color: #0c0c0d;
+  color: #296d98;
+  font-family: "Xanh Mono", monospace;
+}
+
+body {
+  margin: 0px;
+  overflow-x: hidden;
+}
+
+header {
+  margin: 0 20px 20px 20px;
+}
+
+/* Cursor */
+
+body {
+  cursor: move;
+}
+a:hover {
+  cursor: crosshair;
+}
+
 .cursor-tracking {
   position: absolute;
   pointer-events: none;
@@ -41,20 +66,6 @@
   filter: saturate(0);
 }
 
-html {
-  background-color: #0c0c0d;
-  color: #296d98;
-  font-family: "Xanh Mono", monospace;
-}
-
-body {
-  margin: 0px;
-  overflow-x: hidden;
-}
-
-header {
-  margin: 0 20px 20px 20px;
-}
 
 h1 {
   animation: 6s colorFade infinite alternate ease-in-out;
